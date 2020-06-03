@@ -81,43 +81,43 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/css/main.css":
+/*!**************************!*\
+  !*** ./src/css/main.css ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_addin_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/addin.js */ \"./src/modules/addin.js\");\n/* harmony import */ var _modules_css_addin_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/css/addin.css */ \"./src/modules/css/addin.css\");\n/* harmony import */ var _modules_css_addin_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_css_addin_css__WEBPACK_IMPORTED_MODULE_1__);\n// index.js\n\n\n\nconsole.log('build file with webpack!');\nObject(_modules_addin_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/main.css?");
 
 /***/ }),
 
-/***/ "./src/modules/addin.js":
-/*!******************************!*\
-  !*** ./src/modules/addin.js ***!
-  \******************************/
+/***/ "./src/js/addin.js":
+/*!*************************!*\
+  !*** ./src/js/addin.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// addinjs\n/* harmony default export */ __webpack_exports__[\"default\"] = (() => {\n    console.log('addin modules');\n});\n\n\n//# sourceURL=webpack:///./src/modules/addin.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n// addinjs\n/* harmony default export */ __webpack_exports__[\"default\"] = (() => {\n    console.log('addin modules');\n});\n\n\n//# sourceURL=webpack:///./src/js/addin.js?");
 
 /***/ }),
 
-/***/ "./src/modules/css/addin.css":
-/*!***********************************!*\
-  !*** ./src/modules/css/addin.css ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/js/main.js":
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/modules/css/addin.css?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _addin_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addin.js */ \"./src/js/addin.js\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_main_css__WEBPACK_IMPORTED_MODULE_1__);\n// index.js\n\n\n\nconsole.log('build file with webpack!');\nObject(_addin_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ })
 

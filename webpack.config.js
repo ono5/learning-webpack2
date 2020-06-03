@@ -3,13 +3,14 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js', // エントリーファイルの指定
+    entry: './src/js/main.js', // エントリーファイルの指定
     output: {
         // resolveで絶対パスを取得できる
         path: path.resolve(__dirname, './dist'), // 出力先
-        filename: 'main.js', // 任意の名前に書き換えられる
+        filename: 'js/main.js', // 任意の名前に書き換えられる
     },
     module: {
         rules: [
@@ -27,9 +28,12 @@ module.exports = {
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin(),
-        new HtmlWebpackPlugin({
-            template: './src/index.html'
+        new MiniCssExtractPlugin({
+            filename: './css/main.css'
         }),
+        new HtmlWebpackPlugin({
+            template: './src/templates/index.html'
+        }),
+        new CleanWebpackPlugin(),
     ],
 }
