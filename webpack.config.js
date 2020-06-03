@@ -1,6 +1,7 @@
 // webpack.config.js
 
 const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: './src/index.js', // エントリーファイルの指定
@@ -15,7 +16,7 @@ module.exports = {
                 test: /\.css/, // testにてファイル名を検知する
                 use: [
                     {
-                        loader: 'style-loader', // loaderは、下から適用されていくので、css-loaderより前に設定する
+                        loader: MiniCssExtractPlugin.loader, // loaderは、下から適用されていくので、css-loaderより前に設定する
                     },
                     {
                         loader: 'css-loader',
@@ -24,4 +25,7 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new MiniCssExtractPlugin(),
+    ],
 }

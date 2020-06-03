@@ -39,3 +39,12 @@ style-loader@1.2.1 | MIT | deps: 2 | versions: 64
 npm install --save-dev style-loader@1.2.1
 ```
 
+## mini-css-extract-plugin
+
+```
+npm view mini-css-extract-plugin
+
+mini-css-extract-plugin@0.9.0 | MIT | deps: 4 | versions: 16
+
+npm install --save-dev mini-css-extract-plugin@0.9.0
+```
