@@ -18,3 +18,13 @@ webpack-cli@3.3.11 | MIT | deps: 11 | versions: 95
 npm install --save-dev webpack-cli@3.3.11
 
 ```
+
+## css-loader
+
+```
+$ npm view css-loader
+
+css-loader@3.5.3 | MIT | deps: 13 | versions: 105
+
+npm install --save-dev css-loader@3.5.3
+```
