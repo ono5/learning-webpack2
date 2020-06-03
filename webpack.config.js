@@ -2,6 +2,7 @@
 
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js', // エントリーファイルの指定
@@ -27,5 +28,8 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin(),
+        new HtmlWebpackPlugin({
+            template: './src/index.html'
+        }),
     ],
 }

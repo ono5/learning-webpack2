@@ -48,3 +48,13 @@ mini-css-extract-plugin@0.9.0 | MIT | deps: 4 | versions: 16
 
 npm install --save-dev mini-css-extract-plugin@0.9.0
 ```
+
+## html-webpack-plugin
+
+```
+npm view html-webpack-plugin
+
+html-webpack-plugin@4.3.0 | MIT | deps: 9 | versions: 97
+
+npm install html-webpack-plugin@4.3.0
+```
