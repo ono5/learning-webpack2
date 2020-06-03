@@ -15,6 +15,9 @@ module.exports = {
                 test: /\.css/, // testにてファイル名を検知する
                 use: [
                     {
+                        loader: 'style-loader', // loaderは、下から適用されていくので、css-loaderより前に設定する
+                    },
+                    {
                         loader: 'css-loader',
                     }
                 ]

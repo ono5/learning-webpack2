@@ -28,3 +28,14 @@ css-loader@3.5.3 | MIT | deps: 13 | versions: 105
 
 npm install --save-dev css-loader@3.5.3
 ```
+
+## style-loader
+
+```
+npm view style-loader
+
+style-loader@1.2.1 | MIT | deps: 2 | versions: 64
+
+npm install --save-dev style-loader@1.2.1
+```
+
