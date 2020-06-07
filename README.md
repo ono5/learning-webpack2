@@ -60,3 +60,17 @@ npm install --save-dev html-webpack-plugin@4.3.0
 ```
 
 ## clean-webpack-plugin
+
+```
+npm view clean-webpack-plugin
+
+clean-webpack-plugin@3.0.0 | MIT | deps: 2 | versions: 26
+
+npm install --save-dev clean-webpack-plugin@3.0.0
+```
+
+## url-loader
+
+```
+
+```
