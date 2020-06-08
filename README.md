@@ -72,5 +72,17 @@ npm install --save-dev clean-webpack-plugin@3.0.0
 ## url-loader
 
 ```
+npm view url-loader
 
+url-loader@4.1.0 | MIT | deps: 3 | versions: 31
+
+npm install --save-dev url-loader@4.1.0
+```
+
+## file-loader
+
+```
+npm view file-loader
+file-loader@6.0.0 | MIT | deps: 2 | versions: 49
+npm install file-loader@6.0.0
 ```
