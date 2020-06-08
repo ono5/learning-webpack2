@@ -86,3 +86,14 @@ npm view file-loader
 file-loader@6.0.0 | MIT | deps: 2 | versions: 49
 npm install file-loader@6.0.0
 ```
+
+## pug-html-loader
+
+```
+npm view pug-html-loader
+
+pug-html-loader@1.1.5 | MIT | deps: 2 | versions: 16
+
+npm install --save-dev pug-html-loader@1.1.5
+```
+
