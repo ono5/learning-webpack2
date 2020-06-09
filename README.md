@@ -106,3 +106,23 @@ webpack-dev-server@3.11.0 | MIT | deps: 33 | versions: 169
 
 npm install --save-dev webpack-dev-server
 ```
+
+## sass-loader
+
+```
+npm view node-sass
+
+node-sass@4.14.1 | MIT | deps: 17 | versions: 139
+
+npm install --save-dev node-sass@4.14.1
+```
+
+## node-sass
+
+```
+npm view node-sass
+
+node-sass@4.14.1 | MIT | deps: 17 | versions: 139
+
+npm install --save-dev node-sass@4.14.1
+```

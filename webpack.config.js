@@ -15,14 +15,17 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css/, // testにてファイル名を検知する
+                test: /\.(css|sass|scss)/, // testにてファイル名を検知する
                 use: [
                     {
                         loader: MiniCssExtractPlugin.loader, // loaderは、下から適用されていくので、css-loaderより前に設定する
                     },
                     {
                         loader: 'css-loader',
-                    }
+                    },
+                    {
+                        loader: 'sass-loader',
+                    },
                 ]
             },
             {
