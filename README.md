@@ -97,3 +97,12 @@ pug-html-loader@1.1.5 | MIT | deps: 2 | versions: 16
 npm install --save-dev pug-html-loader@1.1.5
 ```
 
+## webpack-dev-server
+
+```
+npm view webpack-dev-server
+
+webpack-dev-server@3.11.0 | MIT | deps: 33 | versions: 169
+
+npm install --save-dev webpack-dev-server
+```
