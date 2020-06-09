@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/css/main.scss"],"names":[],"mappings":"AAEA,KACI,uBAAwB","file":"./css/main.css","sourcesContent":["/* modules/css/addin.css */\n\nbody {\n    background-color: tomato;\n}\n"],"sourceRoot":""}

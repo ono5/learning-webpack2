@@ -6,6 +6,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+    devtool: 'source-map',
     entry: './src/js/main.js', // エントリーファイルの指定
     output: {
         // resolveで絶対パスを取得できる
@@ -15,6 +16,18 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.js/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            presets: ['@babel/preset-env'],
+                        },
+                    },
+                ],
+            },
+            {
                 test: /\.(css|sass|scss)/, // testにてファイル名を検知する
                 use: [
                     {
@@ -22,6 +35,9 @@ module.exports = {
                     },
                     {
                         loader: 'css-loader',
+                        options: {
+                            sourceMap: true,
+                        },
                     },
                     {
                         loader: 'sass-loader',
