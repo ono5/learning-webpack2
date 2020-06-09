@@ -58,7 +58,12 @@ module.exports = {
             filename: './css/main.css'
         }),
         new HtmlWebpackPlugin({
-            template: './src/templates/index.html'
+            template: './src/templates/index.pug',
+            filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/templates/demo.pug',
+            filename: 'demo.html'
         }),
         new CleanWebpackPlugin(),
     ],

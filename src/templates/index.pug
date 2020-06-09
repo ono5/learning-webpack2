@@ -1,10 +1,7 @@
-<!-- src/templates/index.pug -->
+extends _layout.pug
 
-doctype html
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    title Pug Practice
-  body
-    h1 Welcome to Pub World!!!
-    img(src="../images/demo.png")
+block args
+  - var title = 'Override Title'
+
+block content
+  h1 Welcome to Pub World!!!

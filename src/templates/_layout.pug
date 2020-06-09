@@ -1,0 +1,13 @@
+<!-- src/templates/_layout.pug -->
+
+block args
+  - var title = 'Welecome to Pug World'
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title #{title}
+  body
+    include _menu.pug
+    block content
