@@ -1,6 +1,12 @@
-// index.js
-import addin from './addin.js';
-import '../css/main.scss';
+// main.js
 
-console.log('build file with webpack!');
-addin();
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

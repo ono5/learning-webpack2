@@ -126,3 +126,32 @@ node-sass@4.14.1 | MIT | deps: 17 | versions: 139
 
 npm install --save-dev node-sass@4.14.1
 ```
+
+## image-webpack-laoder
+
+```
+npm view image-webpack-loader
+
+image-webpack-loader@6.0.0 | MIT | deps: 9 | versions: 38
+
+npm install --save-dev image-webpack-loader@6.0.0
+```
+
+
+## React
+```
+npm view @babel/preset-react
+
+@babel/preset-react@7.10.1 | MIT | deps: 7 | versions: 44
+
+npm install --save-dev @babel/preset-react@7.10.1
+
+npm view react
+react@16.13.1 | MIT | deps: 3 | versions: 272
+
+npm view react-dom
+react-dom@16.13.1 | MIT | deps: 4 | versions: 227
+
+npm install --save-dev react@16.13.1
+npm install --save-dev react-dom@16.13.1
+```

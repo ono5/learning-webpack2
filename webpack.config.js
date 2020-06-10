@@ -22,7 +22,10 @@ module.exports = {
                     {
                         loader: 'babel-loader',
                         options: {
-                            presets: ['@babel/preset-env'],
+                            presets: [
+                                '@babel/preset-env',
+                                '@babel/preset-react',
+                            ],
                         },
                     },
                 ],
@@ -51,8 +54,11 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             esModule: false,
-                            name: "images/[name].[ext]"
+                            name: "images/[name].[ext]",
                         },
+                    },
+                    {
+                        loader: 'image-webpack-loader',
                     },
                 ],
             },
