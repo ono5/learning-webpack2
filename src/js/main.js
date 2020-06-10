@@ -2,14 +2,11 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
-
-import add from './newTypeScript.ts';
+import Demo from './demo.tsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <div>Sum: {add(1, 2)}</div>
+      <Demo message="Hello" />
   </React.StrictMode>,
   document.getElementById('root')
 );
