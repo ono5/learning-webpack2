@@ -155,3 +155,18 @@ react-dom@16.13.1 | MIT | deps: 4 | versions: 227
 npm install --save-dev react@16.13.1
 npm install --save-dev react-dom@16.13.1
 ```
+
+## TypeScript
+
+```
+npm view typescript
+
+typescript@3.9.5 | Apache-2.0 | deps: none | versions: 1607
+
+npm view ts-loader
+
+ts-loader@7.0.5 | MIT | deps: 5 | versions: 117
+
+npm install --save-dev typescript@3.9.5
+npm install --save-dev ts-loader@7.0.5
+```
